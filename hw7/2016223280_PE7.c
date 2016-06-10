@@ -4,7 +4,7 @@
 #define oops(m,x) {perror(m);exit(x);}
 
 
-main(int ac,char *av[])
+main(int ac,char **av)
 {
 
 	int thepipe[2],newpipe[2], /*file descriptors*/
